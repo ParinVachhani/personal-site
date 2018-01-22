@@ -6,19 +6,19 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
+    label: "Post" # Used in the UI
     folder: "content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: "false"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Categories", name: "categories", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "string"}
-      - {label: "Keywords", name: "keywords", widget: "string"}
-      - {label: "Auto Thumbnail Image", name: "autoThumbnailImage", widget: "boolean", default: true}
-      - {label: "Thumbnail Image Position", name: "thumbnailImagePosition", widget: "select", options: ["left", "top", "right"]}
-      - {label: "Thumbnail Image", name: "thumbnailImage", widget: "image"}
-      - {label: "Cover Image", name: "coverImage", widget: "image"}
+      - {label: "Categories", name: "categories", widget: "string", required: "false"}
+      - {label: "Tags", name: "tags", widget: "string", required: "false"}
+      - {label: "Keywords", name: "keywords", widget: "string", required: "false"}
+      - {label: "Auto Thumbnail Image", name: "autoThumbnailImage", widget: "boolean", default: true, required: "false"}
+      - {label: "Thumbnail Image Position", name: "thumbnailImagePosition", widget: "select", options: ["left", "top", "right"], required: "false"}
+      - {label: "Thumbnail Image", name: "thumbnailImage", widget: "image", required: "false"}
+      - {label: "Cover Image", name: "coverImage", widget: "image", required: "false"}
       - {label: "Body", name: "body", widget: "markdown"}
