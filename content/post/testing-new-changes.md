@@ -6,8 +6,11 @@ categories:
   - Cat1
 tags:
   - Tag1
+  - Tag2
 keywords:
   - Key1
+  - Key2
+  - Key3
 autoThumbnailImage: true
 thumbnailImagePosition: right
 thumbnailImage: /images/uploads/hugo-logo.png
