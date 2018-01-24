@@ -14,9 +14,9 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", required: "false"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Categories", name: "categories", widget: "string", required: "false"}
-      - {label: "Tags", name: "tags", widget: "string", required: "false"}
-      - {label: "Keywords", name: "keywords", widget: "string", required: "false"}
+      - {label: "Categories", name: "categories", widget: "list", required: "false"}
+      - {label: "Tags", name: "tags", widget: "list", required: "false"}
+      - {label: "Keywords", name: "keywords", widget: "list", required: "false"}
       - {label: "Auto Thumbnail Image", name: "autoThumbnailImage", widget: "boolean", default: true, required: "false"}
       - {label: "Thumbnail Image Position", name: "thumbnailImagePosition", widget: "select", options: ["left", "top", "right"], required: "false"}
       - {label: "Thumbnail Image", name: "thumbnailImage", widget: "image", required: "false"}
