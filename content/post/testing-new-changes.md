@@ -1,7 +1,7 @@
 ---
 title: Testing new changes
 date: 2018-01-24T06:33:43.694Z
-draft: true
+draft: false
 categories:
   - Cat1
 tags:
