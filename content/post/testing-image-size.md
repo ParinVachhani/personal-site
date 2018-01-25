@@ -15,8 +15,8 @@ keywords:
   - Key3
   - Key4
 autoThumbnailImage: true
-thumbnailImagePosition: top
-thumbnailImage: /images/uploads/sagar khatri.png
+thumbnailImagePosition: left
+thumbnailImage: ''
 coverImage: /images/uploads/sagar khatri.png
 ---
 Testing image
