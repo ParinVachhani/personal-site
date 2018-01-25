@@ -1,19 +1,18 @@
 ---
-title: "Hello World"
-date: 2018-01-20T12:51:42+05:30
+title: Hello World
+date: 2018-01-20T07:21:42.000Z
 categories:
-- Blog
-- Random Discoveries
+  - Blog
+  - Random Discoveries
 tags:
-- New Blog
-- Hugo
-- Netlify CMS
+  - New Blog
+  - Hugo
+  - Netlify CMS
 keywords:
-- New Blog
+  - New Blog
 autoThumbnailImage: true
-thumbnailImagePosition: "top"
-coverImage: cover.jpg
-metaAlignment: center
+thumbnailImagePosition: top
+coverImage: /images/uploads/cover-post.jpg
 ---
 I decided to gift myself a new blog and here is the result ;)
 <!--more-->
