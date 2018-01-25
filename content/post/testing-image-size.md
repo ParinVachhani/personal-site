@@ -1,7 +1,7 @@
 ---
 title: Testing image size
 date: 2018-01-25T10:35:33.266Z
-draft: true
+draft: false
 categories:
   - Cat1
   - Cat2
