@@ -10,7 +10,7 @@ tags:
   - Netlify CMS
 keywords:
   - New Blog
-autoThumbnailImage: true
+autoThumbnailImage: false
 thumbnailImagePosition: top
 coverImage: /images/uploads/cover-post.jpg
 ---
