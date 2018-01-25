@@ -1,24 +1,73 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+
 publish_mode: editorial_workflow
+
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
 collections:
+
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", required: "false", widget: "datetime"}
-      - {label: "Draft", name: "draft", required: "false", widget: "boolean", default: true}
-      - {label: "Categories", name: "categories", required: "false", widget: "list"}
-      - {label: "Tags", name: "tags", required: "false", widget: "list"}
-      - {label: "Keywords", name: "keywords", required: "false", widget: "list"}
-      - {label: "Auto Thumbnail Image", name: "autoThumbnailImage", required: "false", widget: "boolean", default: true}
-      - {label: "Thumbnail Image Position", name: "thumbnailImagePosition", required: "false", widget: "select", options: ["left", "top", "right"]}
-      - {label: "Thumbnail Image", name: "thumbnailImage", required: "false", widget: "image"}
-      - {label: "Cover Image", name: "coverImage", required: "false", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Title"
+        name: "title"
+        widget: "string"}
+
+      - label: "Publish Date"
+        name: "date"
+        required: "false"
+        widget: "datetime"
+
+      - label: "Draft"
+        name: "draft"
+        required: "false"
+        widget: "boolean"
+        default: true
+
+      - label: "Categories"
+        name: "categories"
+        required: "false"
+        widget: "list"
+
+      - label: "Tags"
+        name: "tags"
+        required: "false"
+        widget: "list"
+
+      - label: "Keywords"
+        name: "keywords"
+        required: "false"
+        widget: "list"
+
+      - label: "Auto Thumbnail Image"
+        name: "autoThumbnailImage"
+        required: "false"
+        widget: "boolean"
+        default: true
+
+      - label: "Thumbnail Image Position"
+        name: "thumbnailImagePosition"
+        required: "false"
+        widget: "select"
+
+        options: ["left", "top", "right"]
+      - label: "Thumbnail Image"
+        name: "thumbnailImage"
+        required: "false"
+        widget: "image"
+
+      - label: "Cover Image"
+        name: "coverImage"
+        required: "false"
+        widget: "image"
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
