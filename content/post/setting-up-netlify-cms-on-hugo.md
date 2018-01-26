@@ -66,7 +66,7 @@ Let us first create the file `index.html` inside the admin folder The content of
 </html>
 ```
 
-This file allows us to access the admin panel for our website. You will be accessing your admin panel at `yourwebsite.com/admin` . This file loads up the required script and CSS for Netlify CMS.
+This file allows us to access the admin panel for our website. You will be accessing your admin panel at `yourwebsite.com/admin`. This file loads up the required script and CSS for Netlify CMS.
 
 In the next file we will configure our Netlify CMS installation. Create a file named `config.yml` at `/static/admin` and proceed to the next step.
 
@@ -98,4 +98,78 @@ _Note: If `public_folder` is not set, Netlify CMS will default to the same value
 
 Collections define the structure for the different content types on your static site. Since every site is different, the `collections` settings will be very different from one site to the next.
 
-I wanted my website to have these options while creating a post: `Title, Publish Date, Draft, Categories, Tags, Keywords, Auto Thumbnail Image Option, Thumbnail Image, Cover Image and Body`.
+I wanted my website to have these options while creating a post: `Title, Publish Date, Draft, Categories, Tags, Keywords, Auto Thumbnail Image Option, Thumbnail Image, Cover Image and Body`. If you wish to have the same for your website then proceed further otherwise visit the Netlify CMS docs for `Collections` on [this link](https://www.netlifycms.org/docs/add-to-your-site/#collections).
+
+Enter these lines to your code in the `config.yml` file:
+
+```
+collections:
+
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+
+    label: "Post" # Used in the UI
+
+    folder: "content/post" # The path to the folder where the documents are stored
+
+    create: true # Allow users to create new documents in this collection
+
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+
+    fields: # The fields for each document, usually in front matter
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Publish Date"
+        name: "date"
+        required: false
+        widget: "datetime"
+
+      - label: "Draft"
+        name: "draft"
+        required: false
+        widget: "boolean"
+        default: true
+
+      - label: "Categories"
+        name: "categories"
+        required: false
+        widget: "list"
+
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+
+      - label: "Keywords"
+        name: "keywords"
+        required: false
+        widget: "list"
+
+      - label: "Auto Thumbnail Image"
+        name: "autoThumbnailImage"
+        required: false
+        widget: "boolean"
+        default: true
+
+      - label: "Thumbnail Image Position"
+        name: "thumbnailImagePosition"
+        required: false
+        widget: "select"
+        options: ["left", "top", "right"]
+
+      - label: "Thumbnail Image"
+        name: "thumbnailImage"
+        required: false
+        widget: "image"
+
+      - label: "Cover Image"
+        name: "coverImage"
+        required: false
+        widget: "image"
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+```
