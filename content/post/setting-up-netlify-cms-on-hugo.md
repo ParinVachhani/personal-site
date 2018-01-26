@@ -33,6 +33,8 @@ In this guide I am going to show you how to setup Netlify CMS on a Hugo based si
 
 > **Note:** The theme of your website should only be installed using the `git submodule add` command. For more info [read this](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify).
 
+**If you don't want the to get your hands dirty with some coding then you can simply clone **[**this repository**](https://github.com/ragasirtahk/the-ragasirtahk-blog)** (of my blog), configure the theme and then proceed to the Step 4.** Also make sure you delete the content in `/content/post` and `/static/images/uploads/`, make changes in the `config.toml` file before proceeding to Step 4.
+
 ## Step 1. Creating the admin files
 
 All Netlify CMS files are contained in a static admin folder, stored at the root of your published site. The static files of a Hugo site are stored inside the `/static` location at the root of your website. 
@@ -195,3 +197,39 @@ Login to your Netlify Account. Click on `New Site from Git`. Now choose GitHub. 
 ![Create a new site on Netlify](/images/uploads/screenshot-2018-1-26 create a new site netlify.png)
 
 Write `hugo` in the `Build command` field. For the `Publish directory` field you need to know where Hugo build and saves your website, the default is `public/`, write the location in this field. Click `Deploy site`. Netlify will publish the contents of the `Publish directory` online after executing the `Build command`.
+
+The website has now been setup on Netlify. 
+
+> You may configure your Netlify website further by viewing the [Netlify docs](https://www.netlify.com/docs/).
+
+## Step 5. Enable Identity and Git Gateway
+
+For this step please follow the steps described in [this guide](https://www.netlifycms.org/docs/add-to-your-site/#enable-identity-and-git-gateway).
+
+## Step 6. Add the Netlify Identity Widget
+
+Use the Netlify's snippet injection feature and add this code before `</head>`:
+
+```
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+```
+
+Add this before `</body>`:
+
+```
+<script>  if (window.netlifyIdentity) {    window.netlifyIdentity.on("init", user => {      if (!user) {        window.netlifyIdentity.on("login", () => {          document.location.href = "/admin/";        });      }    });  }</script>
+```
+
+The guide for using this feature is available [here](https://www.netlify.com/docs/inject-analytics-snippets/).
+
+## Step 7. Accessing the CMS
+
+You might have receieved an email saying "You've been invited to join `xyz`" from the email: `no-reply@netlify.com`. If you did not receive the email then you need to invite yourself to access the CMS.
+
+To do this, select the **Identity** tab from your site dashboard, and then select the **Invite users** button. Invited users will receive an email invitation with a confirmation link. Clicking the link will take you to your site with a login prompt.
+
+If you left your site registration open, or for return visits after comfirming an email invitation, you can access your site’s CMS at `yoursite.com/admin/`.
+
+## Summing Up
+
+So in this guide I have explained you **how to setup Netlify CMS on Hugo and host in on Netlify and GitHub**. If you have any queries or suggestions, I will love to hear them in the comments box below.
