@@ -102,17 +102,9 @@ _Note: If `public_folder` is not set, Netlify CMS will default to the same value
 
 Collections define the structure for the different content types on your static site. Since every site is different, the `collections` settings will be very different from one site to the next.
 
-I wanted my website to have these options while creating a post: `Title, Publish Date, Draft, Categories, Tags, Keywords, Auto Thumbnail Image Option, Thumbnail Image, Cover Image and Body`. 
+I wanted my website to have these options while creating a post: `Title, Publish Date, Draft, Categories, Tags, Keywords, Auto Thumbnail Image Option, Thumbnail Image, Cover Image and Body`
 
-> If you wish to have the same for your website then proceed further otherwise 
->
-> **visit the Netlify CMS docs for `Collections` on **
->
-> [**this link**](https://www.netlifycms.org/docs/add-to-your-site/#collections)
->
-> **. **
->
-> There you will find all the explanation and stuff for this step.
+> If you wish to have the same for your website then proceed further otherwise **visit the Netlify CMS docs for `Collections` on **[**this link**](https://www.netlifycms.org/docs/add-to-your-site/#collections). There you will find all the explanation and stuff for this step.
 
 Enter these lines to your code in the `config.yml` file:
 
@@ -189,3 +181,17 @@ collections:
 ```
 
 ## Step 4. Setup on Netlify
+
+Before we push our code to GitHub and Netlify we need to make another configuration. We need to specify the Hugo Version which should be used by Netlify to generate the website. To do so, at the root of your website's create a new file named `netlify.toml` with content:
+
+```
+[build.environment]  HUGO_VERSION = "0.33"
+```
+
+Upload all the code of your website on a repository on GitHub.
+
+Login to your Netlify Account. Click on `New Site from Git`. Now choose GitHub. Netlify will now ask for permission, allow by clicking on `Authorize Application`. On the next screen choose the repository to which you uploaded the code of your website. On the next screen you will see something like this:
+
+![Create a new site on Netlify](/images/uploads/screenshot-2018-1-26 create a new site netlify.png)
+
+Write `hugo` in the `Build command` field. For the `Publish directory` field you need to know where Hugo build and saves your website, the default is `public/`, write the location in this field. Click `Deploy site`. Netlify will publish the contents of the `Publish directory` online after executing the `Build command`.
