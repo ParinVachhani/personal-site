@@ -71,3 +71,4 @@ This file allows us to access the admin panel for our website. You will be acces
 In the next file we will configure our Netlify CMS installation. Create a file named `config.yml` at `/static/admin` and proceed to the next step.
 
 ## Step 2. Configuring config.yml file
+{{< gist ragasirtahk 9f70fb00d5cf8c94c175a0a4fb9ba553 >}}
