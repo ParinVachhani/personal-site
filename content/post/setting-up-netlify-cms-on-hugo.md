@@ -31,17 +31,7 @@ In this guide I am going to show you how to setup Netlify CMS on a Hugo based si
 * GitHub account and basic usage
 * A Netlify Account
 
-> **Note: **
->
-> The theme of your website should only be installed using the 
->
-> `git submodule add`
->
->  command. For more info 
->
-> [read this](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify)
->
-> .
+> **Note:** The theme of your website should only be installed using the `git submodule add` command. For more info [read this](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify).
 
 ## Step 1. Creating the admin files
 
