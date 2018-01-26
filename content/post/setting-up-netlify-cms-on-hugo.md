@@ -232,4 +232,12 @@ If you left your site registration open, or for return visits after comfirming a
 
 ## Summing Up
 
-So in this guide I have explained you **how to setup Netlify CMS on Hugo and host in on Netlify and GitHub**. If you have any queries or suggestions, I will love to hear them in the comments box below.
+So in this guide I have explained you **how to setup Netlify CMS on Hugo and host in on Netlify and GitHub**. 
+
+> You can view the code of this whole blog in 
+>
+> [this GitHub repository](https://github.com/ragasirtahk/the-ragasirtahk-blog)
+>
+> .
+
+If you have any queries or suggestions, I will love to hear them in the comments box below.
