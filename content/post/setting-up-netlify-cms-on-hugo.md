@@ -31,6 +31,18 @@ In this guide I am going to show you how to setup Netlify CMS on a Hugo based si
 * GitHub account and basic usage
 * A Netlify Account
 
+> **Note: **
+>
+> The theme of your website should only be installed using the 
+>
+> `git submodule add`
+>
+>  command. For more info 
+>
+> [read this](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify)
+>
+> .
+
 ## Step 1. Creating the admin files
 
 All Netlify CMS files are contained in a static admin folder, stored at the root of your published site. The static files of a Hugo site are stored inside the `/static` location at the root of your website. 
@@ -96,9 +108,21 @@ _Note: If `public_folder` is not set, Netlify CMS will default to the same value
 
 **Next comes the tricky part of the configurations....**
 
+## **Step 3. Specifying collections in config.yml file**
+
 Collections define the structure for the different content types on your static site. Since every site is different, the `collections` settings will be very different from one site to the next.
 
-I wanted my website to have these options while creating a post: `Title, Publish Date, Draft, Categories, Tags, Keywords, Auto Thumbnail Image Option, Thumbnail Image, Cover Image and Body`. If you wish to have the same for your website then proceed further otherwise visit the Netlify CMS docs for `Collections` on [this link](https://www.netlifycms.org/docs/add-to-your-site/#collections).
+I wanted my website to have these options while creating a post: `Title, Publish Date, Draft, Categories, Tags, Keywords, Auto Thumbnail Image Option, Thumbnail Image, Cover Image and Body`. 
+
+> If you wish to have the same for your website then proceed further otherwise 
+>
+> **visit the Netlify CMS docs for `Collections` on **
+>
+> [**this link**](https://www.netlifycms.org/docs/add-to-your-site/#collections)
+>
+> **. **
+>
+> There you will find all the explanation and stuff for this step.
 
 Enter these lines to your code in the `config.yml` file:
 
@@ -173,3 +197,5 @@ collections:
         name: "body"
         widget: "markdown"
 ```
+
+## Step 4. Setup on Netlify
