@@ -7,7 +7,7 @@ categories:
   - Netlify
 tags:
   - Netlify
-  - NetlifyCMS
+  - Netlify-CMS
   - Hugo
 keywords:
   - Netlify
