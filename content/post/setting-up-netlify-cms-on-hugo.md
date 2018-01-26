@@ -30,3 +30,87 @@ In this guide I am going to show you how to setup Netlify CMS on a Hugo based si
 * A Netlify Account
 
 **Alternatively, **If you do not want to create a website on Hugo before continuing and just want the format of this blog then follow the steps here.
+
+## Step 1. Creating the admin files
+
+All Netlify CMS files are contained in a static admin folder, stored at the root of your published site. The static files of a Hugo site are stored inside the `/static` location at the root of your website. 
+
+Navigate to `static` of your website and create a folder named `admin` inside it. If there is no `static` folder in your website then simply create a new folder and name it. 
+
+The `admin` folder of Netlify CMS contains two files: 
+
+`admin`
+
+` ├ index.html`
+
+` └ config.yml`
+
+Let us first create the file `index.html`. The content of this file will be:
+
+```
+<!doctype html>
+```
+
+```
+<html>
+```
+
+```
+<head>
+```
+
+```
+  <meta charset="utf-8" />
+```
+
+```
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
+```
+  <title>Content Manager</title>
+```
+
+```
+
+```
+
+```
+  <!-- Include the styles for the Netlify CMS UI, after your own styles -->
+```
+
+```
+  <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^1.0.0/dist/cms.css" />
+```
+
+```
+
+```
+
+```
+</head>
+```
+
+```
+<body>
+```
+
+```
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+```
+
+```
+  <script src="https://unpkg.com/netlify-cms@^1.0.0/dist/cms.js"></script>
+```
+
+```
+</body>
+```
+
+```
+</html>
+```
+
+```
+
+```
