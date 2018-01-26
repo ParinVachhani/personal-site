@@ -18,6 +18,7 @@ keywords:
   - Host static blog on Netlify
 autoThumbnailImage: false
 thumbnailImagePosition: ''
+coverImage: /images/uploads/cover-post.jpg
 ---
 # About [Netlify CMS](https://www.netlifycms.org/):
 
