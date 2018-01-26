@@ -1,7 +1,7 @@
 ---
 title: Setting up Netlify CMS on Hugo
 date: 2018-01-26T10:16:54.728Z
-draft: true
+draft: false
 categories:
   - Tutorials
   - Netlify
