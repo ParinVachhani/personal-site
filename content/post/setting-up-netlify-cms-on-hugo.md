@@ -25,7 +25,7 @@ thumbnailImagePosition: ''
 
 # Installing and configuring Netlify CMS:
 
-In this guide I am going to show you how to setup Netlify CMS on a Hugo based site. The **prerequisites **for the next steps are:
+In this guide I am going to show you how to setup Netlify CMS on a Hugo based site. We will be hosting the website on GitHub and Netlify. The **prerequisites **for the next steps are:
 
 * A Hugo website/blog
 * GitHub account and basic usage
@@ -71,4 +71,31 @@ This file allows us to access the admin panel for our website. You will be acces
 In the next file we will configure our Netlify CMS installation. Create a file named `config.yml` at `/static/admin` and proceed to the next step.
 
 ## Step 2. Configuring config.yml file
-{{< gist ragasirtahk 9f70fb00d5cf8c94c175a0a4fb9ba553 >}}
+
+Configuring this file depends a lot on your site. The common configurations for each website are described below. Since **we are using Netlify and GitHub for hosting** our website so enter this in your file:
+
+```
+backend:   name: git-gateway  branch: master # Branch to update (optional; defaults to master)
+```
+
+You have the option to **enable the Editorial Workflow**, which adds an interface for drafting, reviewing, and approving posts. To do this, add the following line to your `config.yml`:
+
+```
+publish_mode: editorial_workflow
+```
+
+Next we are going to specify the locations where Netlify CMS will store the images you upload to your blog. I wish to store the files in `static/images/uploads` folder of my website and make them available in the published website at `/images/uploads`.
+
+While `media_folder` specifies where uploaded files will be saved in the repo, `public_folder` indicates where they can be found in the published site. Depending upon your requirements you may edit the code:
+
+```
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploadspublic_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+```
+
+_Note: If `public_folder` is not set, Netlify CMS will default to the same value as `media_folder`, adding an opening / if one is not included. _
+
+**Next comes the tricky part of the configurations....**
+
+Collections define the structure for the different content types on your static site. Since every site is different, the `collections` settings will be very different from one site to the next.
+
+I wanted my website to have these options while creating a post: `Title, Publish Date, Draft, Categories, Tags, Keywords, Auto Thumbnail Image Option, Thumbnail Image, Cover Image and Body`.
