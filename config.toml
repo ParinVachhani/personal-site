@@ -33,7 +33,7 @@ canonifyurls = true
 [author]
   name = "Sagar Khatri"
   bio = "15 | Blogger | Quizzer | Conversationalist"
-  job = "Student"
+  job = "Student @ DPS Sonepat"
   location = "India"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "khatri.sagar.sk@gmail.com"
