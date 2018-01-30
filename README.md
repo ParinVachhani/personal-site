@@ -16,6 +16,6 @@ Please all the credit should be attributed to [original *Hexo* version](https://
 ## Setup for Yourself
 I have created a guide explaining how someone can create a blog like mine using Hugo and Netlify CMS. You can view it [here](https://www.ragasirtahk.tk/2018/01/setting-up-netlify-cms-on-hugo/).
 
-Feel free to use the changes I made in the code of the theme I used however credits to this repository will be highly appreciated. You can simply fork / clone / download this repository, upload to your server or deploy to **Netlify** and create your own blog. Remember to delete the contents of `/content/post` before uploading or deploying it. 
+>Feel free to use the changes I made in the code of the theme I used however credits to this repository will be highly appreciated. You can simply fork / clone / download this repository, upload to your server or deploy to **Netlify** and create your own blog. Remember to delete the contents of `/content/post` before uploading or deploying it. 
 
 ![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg "Deploys by Netlify")
