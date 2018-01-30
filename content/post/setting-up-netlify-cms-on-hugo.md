@@ -34,7 +34,7 @@ In this guide I am going to show you how to setup Netlify CMS on a Hugo based si
 
 > **Note:** The theme of your website should only be installed using the `git submodule add` command. For more info [read this](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify).
 
-**If you don't want the to get your hands dirty with some coding then you can simply clone **[**this repository**](https://github.com/ragasirtahk/the-ragasirtahk-blog)** (of my blog), configure the theme and then proceed to the Step 4.** Also make sure you delete the content in `/content/post` and `/static/images/uploads/`, make changes in the `config.toml` file before proceeding to Step 4.
+**If you don't want the to get your hands dirty with some coding then you can simply clone [**this repository**](https://github.com/ragasirtahk/the-ragasirtahk-blog) (of my blog), configure the theme and then proceed to the Step 4.** Also make sure you delete the content in `/content/post` and `/static/images/uploads/`, make changes in the `config.toml` file before proceeding to Step 4.
 
 ## Step 1. Creating the admin files
 
@@ -80,7 +80,9 @@ In the next file we will configure our Netlify CMS installation. Create a file n
 Configuring this file depends a lot on your site. The common configurations for each website are described below. Since **we are using Netlify and GitHub for hosting** our website so enter this in your file:
 
 ```
-backend:   name: git-gateway   branch: master # Branch to update (optional; defaults to master)
+backend:   
+  name: git-gateway   
+  branch: master # Branch to update (optional; defaults to master)
 ```
 
 You have the option to **enable the Editorial Workflow**, which adds an interface for drafting, reviewing, and approving posts. To do this, add the following line to your `config.yml`:
@@ -94,7 +96,8 @@ Next we are going to specify the locations where Netlify CMS will store the imag
 While `media_folder` specifies where uploaded files will be saved in the repo, `public_folder` indicates where they can be found in the published site. Depending upon your requirements you may edit the code:
 
 ```
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploadspublic_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 ```
 
 _Note: If `public_folder` is not set, Netlify CMS will default to the same value as `media_folder`, adding an opening / if one is not included. _
@@ -107,7 +110,7 @@ Collections define the structure for the different content types on your static 
 
 I wanted my website to have these options while creating a post: `Title, Publish Date, Draft, Categories, Tags, Keywords, Auto Thumbnail Image Option, Thumbnail Image, Cover Image and Body`
 
-> If you wish to have the same for your website then proceed further otherwise **visit the Netlify CMS docs for `Collections` on **[**this link**](https://www.netlifycms.org/docs/add-to-your-site/#collections). There you will find all the explanation and stuff for this step.
+> If you wish to have the same for your website then proceed further otherwise **visit the Netlify CMS docs for `Collections` on**[**this link**](https://www.netlifycms.org/docs/add-to-your-site/#collections). There you will find all the explanation and stuff for this step.
 
 Enter these lines to your code in the `config.yml` file:
 
