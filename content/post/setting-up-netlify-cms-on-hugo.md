@@ -80,7 +80,7 @@ In the next file we will configure our Netlify CMS installation. Create a file n
 Configuring this file depends a lot on your site. The common configurations for each website are described below. Since **we are using Netlify and GitHub for hosting** our website so enter this in your file:
 
 ```
-backend:   name: git-gateway  branch: master # Branch to update (optional; defaults to master)
+backend:   name: git-gateway   branch: master # Branch to update (optional; defaults to master)
 ```
 
 You have the option to **enable the Editorial Workflow**, which adds an interface for drafting, reviewing, and approving posts. To do this, add the following line to your `config.yml`:
