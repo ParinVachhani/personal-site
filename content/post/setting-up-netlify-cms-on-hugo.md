@@ -218,7 +218,17 @@ Use the Netlify's snippet injection feature and add this code before `</head>`:
 Add this before `</body>`:
 
 ```
-<script>  if (window.netlifyIdentity) {    window.netlifyIdentity.on("init", user => {      if (!user) {        window.netlifyIdentity.on("login", () => {          document.location.href = "/admin/";        });      }    });  }</script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 ```
 
 The guide for using this feature is available [here](https://www.netlify.com/docs/inject-analytics-snippets/).
