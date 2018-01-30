@@ -110,7 +110,7 @@ Collections define the structure for the different content types on your static 
 
 I wanted my website to have these options while creating a post: `Title, Publish Date, Draft, Categories, Tags, Keywords, Auto Thumbnail Image Option, Thumbnail Image, Cover Image and Body`
 
-> If you wish to have the same for your website then proceed further otherwise **visit the Netlify CMS docs for `Collections` on **[**this link**](https://www.netlifycms.org/docs/add-to-your-site/#collections). There you will find all the explanation and stuff for this step.
+> If you wish to have the same for your website then proceed further otherwise **visit the Netlify CMS docs for `Collections` on [**this link**](https://www.netlifycms.org/docs/add-to-your-site/#collections).** There you will find all the explanation and stuff for this step.
 
 Enter these lines to your code in the `config.yml` file:
 
