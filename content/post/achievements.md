@@ -22,10 +22,10 @@ The achievements below are written in third person:
 
 • **Running and maintaining three websites**. The websites have gathered **more than 2,00,000 page views** till date with Quizzr being the most successful one. Also a publisher of **GOOGLE ADSENSE** since 2016.:
 
-1. ** Quizzr (https://www.quizzr.tech/)**: Quizzr is a blog for all the quizzing enthusiasts. Questions and answers of famous quizzes are posted to quench quizzing thirst of the readers.
-2. ** BitCoin Price (https://whatisthebitcoinprice.ga/)**: This website allows users to view live changes in the price of bitcoin without the need of refreshing page. Users can also view recent worldwide trades of bitcoin on the website.
-3. ** Social Envoy (https://www.socialenvoy.design/)**: Social Envoy is an NGO established in 2017. The goal of the Social Envoy is to enable cultural exposure and leadership spirit by means of creative and influential use of resources, to impact and develop bridges for humanity.
-4. ** The ragasirtahk Blog (https://www.ragasirtahk.tk/)**: This is the personal blog of Sagar where he posts various things to the world. It has been featured by Netlify (https://www.netlifycms.org/docs/examples/).
+1. Quizzr (https://www.quizzr.tech/): Quizzr is a blog for all the quizzing enthusiasts. Questions and answers of famous quizzes are posted to quench quizzing thirst of the readers.
+2. BitCoin Price (https://whatisthebitcoinprice.ga/): This website allows users to view live changes in the price of bitcoin without the need of refreshing page. Users can also view recent worldwide trades of bitcoin on the website.
+3. Social Envoy (https://www.socialenvoy.design/): Social Envoy is an NGO established in 2017. The goal of the Social Envoy is to enable cultural exposure and leadership spirit by means of creative and influential use of resources, to impact and develop bridges for humanity.
+4. The ragasirtahk Blog (https://www.ragasirtahk.tk/): This is the personal blog of Sagar where he posts various things to the world. It has been featured by Netlify (https://www.netlifycms.org/docs/examples/).
 
 • **Co-Founder of an NGO – Social Envoy (https://www.socialenvoy.design/)**:The goal of the Social Envoy is to enable cultural exposure and leadership spirit by means of creative and influential use of resources, to impact and develop bridges for humanity. We are working to ensure that we have a new generation of young, bold, ethical leaders; ready to step forward as talented individuals but to lead for the collective, for social good.
 
