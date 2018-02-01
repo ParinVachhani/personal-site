@@ -24,19 +24,19 @@ The achievements below are written in third person:
 
 
 
-1.** Quizzr (https://www.quizzr.tech/)**: Quizzr is a blog for all the quizzing enthusiasts. Questions and answers of famous quizzes are posted to quench quizzing thirst of the readers.
+**1. Quizzr (https://www.quizzr.tech/)**: Quizzr is a blog for all the quizzing enthusiasts. Questions and answers of famous quizzes are posted to quench quizzing thirst of the readers.
 
 
 
-2.** BitCoin Price (https://whatisthebitcoinprice.ga/)**: This website allows users to view live changes in the price of bitcoin without the need of refreshing page. Users can also view recent worldwide trades of bitcoin on the website.
+**2. BitCoin Price (https://whatisthebitcoinprice.ga/)**: This website allows users to view live changes in the price of bitcoin without the need of refreshing page. Users can also view recent worldwide trades of bitcoin on the website.
 
 
 
-3. **Social Envoy (https://www.socialenvoy.design/)**: Social Envoy is an NGO established in 2017. The goal of the Social Envoy is to enable cultural exposure and leadership spirit by means of creative and influential use of resources, to impact and develop bridges for humanity.
+**3. Social Envoy (https://www.socialenvoy.design/)**: Social Envoy is an NGO established in 2017. The goal of the Social Envoy is to enable cultural exposure and leadership spirit by means of creative and influential use of resources, to impact and develop bridges for humanity.
 
 
 
-4. **The ragasirtahk Blog (https://www.ragasirtahk.tk/)**: This is the personal blog of Sagar where he posts various things to the world. It has been featured by Netlify (https://www.netlifycms.org/docs/examples/).
+**4. The ragasirtahk Blog (https://www.ragasirtahk.tk/)**: This is the personal blog of Sagar where he posts various things to the world. It has been featured by Netlify (https://www.netlifycms.org/docs/examples/).
 
 
 
@@ -44,17 +44,17 @@ The achievements below are written in third person:
 
 
 
-• Contributing to open source projects (Open source refers to any program whose source code is made available for use or modification as users or other developers see fit. Open source software is usually developed as a public collaboration and made freely available.):
+• **Contributing to open source projects** (Open source refers to any program whose source code is made available for use or modification as users or other developers see fit. Open source software is usually developed as a public collaboration and made freely available.):
 
-1.** Drupal**:  Drupal is content management software. Anyone can download, use, work on, and share it with others. Contribution type: Bug report, Bug fixing, Adding projects. Contributions can be viewed on: https://www.drupal.org/u/ragasirtahk
-
-
-
-2. **Nelify CMS**: Netlify CMS is an open source content management software for Git workflow. Sagar’s GitHub profile has been credited for contributions by providing his image and  link at the homepage of Netlify CMS. Contribution type: Bug report, Docs Editing, Examples contributing. (https://www.netlifycms.org/). Also received some goodies from Netlify as a token of thanks.
+**1. Drupal**:  Drupal is content management software. Anyone can download, use, work on, and share it with others. Contribution type: Bug report, Bug fixing, Adding projects. Contributions can be viewed on: https://www.drupal.org/u/ragasirtahk
 
 
 
-3. **Publii**: Publii is one-of-its-kind CMS around. Its main attraction is the ability to publish and make changes using a desktop app. (https://getpublii.com/). Contribution type: Bug Reporting, Feature Suggestions.
+**2. Nelify CMS**: Netlify CMS is an open source content management software for Git workflow. Sagar’s GitHub profile has been credited for contributions by providing his image and  link at the homepage of Netlify CMS. Contribution type: Bug report, Docs Editing, Examples contributing. (https://www.netlifycms.org/). Also received some goodies from Netlify as a token of thanks.
+
+
+
+**3. Publii**: Publii is one-of-its-kind CMS around. Its main attraction is the ability to publish and make changes using a desktop app. (https://getpublii.com/). Contribution type: Bug Reporting, Feature Suggestions.
 
 
 
