@@ -24,11 +24,11 @@ The achievements below are written in third person:
 
 
 
-**1. Quizzr (https://www.quizzr.tech/)**: Quizzr is a blog for all the quizzing enthusiasts. Questions and answers of famous quizzes are posted to quench quizzing thirst of the readers.
+  **1. Quizzr (https://www.quizzr.tech/)**: Quizzr is a blog for all the quizzing enthusiasts. Questions and answers of famous quizzes are posted to quench quizzing thirst of the readers.
 
 
 
-**2. BitCoin Price (https://whatisthebitcoinprice.ga/)**: This website allows users to view live changes in the price of bitcoin without the need of refreshing page. Users can also view recent worldwide trades of bitcoin on the website.
+  **2. BitCoin Price (https://whatisthebitcoinprice.ga/)**: This website allows users to view live changes in the price of bitcoin without the need of refreshing page. Users can also view recent worldwide trades of bitcoin on the website.
 
 
 
