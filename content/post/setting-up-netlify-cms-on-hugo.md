@@ -17,7 +17,7 @@ keywords:
   - Static website generator Netlify
   - Host static blog on Netlify
 autoThumbnailImage: false
-thumbnailImagePosition: ''
+thumbnailImagePosition: top
 coverImage: /images/uploads/cover-post.jpg
 ---
 # About [Netlify CMS](https://www.netlifycms.org/):
