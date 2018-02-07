@@ -62,7 +62,7 @@ collections:
         name: "coverImage"
         required: false
         widget: "image"
-        default: "/static/images/uploads/cover-post.jpg"
+        default: "/images/uploads/cover-post.jpg"
         
       - label: "Body"
         name: "body"
