@@ -34,7 +34,7 @@ In this guide I am going to show you how to setup Netlify CMS on a Hugo based si
 
 > **Note:** The theme of your website should only be installed using the `git submodule add` command. For more info [read this](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify).
 
-**If you don't want the to get your hands dirty with some coding then you can simply clone [**this repository**](https://github.com/ragasirtahk/the-ragasirtahk-blog) (of my blog), configure the theme and then proceed to the Step 4.** Also make sure you delete the content in `/content/post` and `/static/images/uploads/`, make changes in the `config.toml` file before proceeding to Step 4. Delete the contents of `/content/post` before using as boilerplate. Also delete the AdSense ad code in `/themes/hugo-tranquilpeak-theme/layouts/partials/footer.html` and delete / change the Google Analytics tracking ID in the `/config.toml` file.
+**If you don't want the to get your hands dirty with some coding then you can simply clone [**this repository**](https://github.com/ragasirtahk/the-ragasirtahk-blog) (of my blog), configure the theme and then proceed to the Step 4.** Also make sure you delete the content in `/content/post` and `/static/images/uploads/`, make changes in the `config.toml` file before proceeding to Step 4. Delete the contents of `/content/post` before using as boilerplate. Also delete the AdSense ad code in `/themes/hugo-tranquilpeak-theme/layouts/partials/footer.html` and `/themes/hugo-tranquilpeak-theme/layouts/partials/post/header.html` and delete / change the Google Analytics tracking ID in the `/config.toml` file.
 
 ## Step 1. Creating the admin files
 
