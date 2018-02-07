@@ -28,6 +28,7 @@ Credits if used as boilerplate (appreciated but not necessary).
 Delete the contents of `/content/post` before using as boilerplate. 
 
 >You can simply fork/clone/download this repository, upload to your server or deploy to **Netlify** and create your own blog. Remember to delete the contents of `/content/post` before uploading or deploying it. 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ragasirtahk/The-ragasirtahk-Blog)
 
 ## My love for Netlify
 And yes this blog deploys on Netlify (https://www.ragasirtahk.tk/). 
