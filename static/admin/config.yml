@@ -51,8 +51,8 @@ collections:
         required: false
         widget: "select"
         default: ["top"]
-
         options: ["left", "top", "right"]
+        
       - label: "Thumbnail Image"
         name: "thumbnailImage"
         required: false
@@ -62,7 +62,8 @@ collections:
         name: "coverImage"
         required: false
         widget: "image"
-
+        default: "/static/images/uploads/cover-post.jpg"
+        
       - label: "Body"
         name: "body"
         widget: "markdown"
