@@ -12,7 +12,7 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseURL = "https://www.ragasirtahk.tk/"
+baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "The ragasirtahk Blog"
@@ -32,7 +32,7 @@ canonifyurls = true
 
 [author]
   name = "Sagar Khatri"
-  bio = "15 | Blogger | Quizzer | Conversationalist"
+  bio = "Open Source Enthusiast | Blogger | Quizzer | Conversationalist"
   job = "Student @ DPS Sonepat"
   location = "India"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
