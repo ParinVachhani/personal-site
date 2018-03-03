@@ -1,7 +1,6 @@
 ---
 title: Achievements
 date: 2018-02-01T07:38:02.700Z
-draft: false
 categories:
   - About Me
   - Achievements
@@ -31,15 +30,14 @@ The achievements below are written in third person:
 
 • **Contributing to open source projects** (Open source refers to any program whose source code is made available for use or modification as users or other developers see fit. Open source software is usually developed as a public collaboration and made freely available.):
 
-1.  Drupal:  Drupal is content management software. Anyone can download, use, work on, and share it with others. Contribution type: Bug report, Bug fixing, Adding projects. Contributions can be viewed on: https://www.drupal.org/u/ragasirtahk
-2.  Nelify CMS: Netlify CMS is an open source content management software for Git workflow. Sagar’s GitHub profile has been credited for contributions by providing his image and  link at the homepage of Netlify CMS. Contribution type: Bug report, Docs Editing, Examples contributing. ( https://www.netlifycms.org/ ). Also received some goodies from Netlify as a token of thanks.
-3.  Publii: Publii is one-of-its-kind CMS around. Its main attraction is the ability to publish and make changes using a desktop app. ( https://getpublii.com/ ). Contribution type: Bug Reporting, Feature Suggestions.
+1. Drupal:  Drupal is content management software. Anyone can download, use, work on, and share it with others. Contribution type: Bug report, Bug fixing, Adding projects. Contributions can be viewed on: https://www.drupal.org/u/ragasirtahk
+2. Nelify CMS: Netlify CMS is an open source content management software for Git workflow. Sagar’s GitHub profile has been credited for contributions by providing his image and  link at the homepage of Netlify CMS. Contribution type: Bug report, Docs Editing, Examples contributing. ( https://www.netlifycms.org/ ). Also received some goodies from Netlify as a token of thanks.
 
-• **Contributions on Pexels**: By providing free stock photos Pexels helps millions of creators all over the world to easily create beautiful products and designs. The photos clicked by him has attracted over 1,00,000 views on Pexels. Profile: https://www.pexels.com/u/ragasirtahk/
+• **Contributions on Pexels**: By providing free stock photos Pexels helps millions of creators all over the world to easily create beautiful products and designs. The photos clicked by him has attracted over 2,00,000 views on Pexels. Profile: https://www.pexels.com/u/ragasirtahk/
 
 • **Achievements in competitions**:
 
-1. Google Code-in 2017 Grand Finalist.
+1. Google Code-in 2017 International Finalist.
 2. North Region Finalist of CSI Discover Thinking Quiz 2015 ( http://www.thehindu.com/todays-paper/tp-national/tp-newdelhi/young-champs-who-cracked-the-hindu-in-school-quiz-contest/article5958130.ece ).
 3. First Prize in The Hindu IQ Contest 2014 
 
