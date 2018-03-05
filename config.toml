@@ -76,6 +76,12 @@ canonifyurls = true
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
   url = "/#about"
+[[menu.main]]
+  weight = 6
+  identifier = "portfolio"
+  name = "Portfolio"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-address-card\"></i>"
+  url = "https://me.ragasirtahk.tk/"
 
 [[menu.links]]
   weight = 1
@@ -104,12 +110,6 @@ canonifyurls = true
 
 [[menu.misc]]
   weight = 1
-  identifier = "portfolio"
-  name = "Portfolio"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-address-card\"></i>"
-  url = "https://me.ragasirtahk.tk/"
-[[menu.misc]]
-  weight = 2
   identifier = "rss"
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
