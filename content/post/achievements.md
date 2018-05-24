@@ -26,7 +26,7 @@ The achievements below are written in third person:
 3. Social Envoy (Shut Down in May 2018. Archive: https://github.com/ragasirtahk/Social-Envoy): Social Envoy is an NGO established in 2017. The goal of the Social Envoy is to enable cultural exposure and leadership spirit by means of creative and influential use of resources, to impact and develop bridges for humanity.
 4. The ragasirtahk Blog ( https://www.ragasirtahk.tk/ ): This is the personal blog of Sagar where he posts various things to the world. It has been featured by Netlify ( https://www.netlifycms.org/docs/examples/ ).
 
-• **Co-Founder of an NGO – Social Envoy** ( https://www.socialenvoy.design/ ) :The goal of the Social Envoy is to enable cultural exposure and leadership spirit by means of creative and influential use of resources, to impact and develop bridges for humanity. We are working to ensure that we have a new generation of young, bold, ethical leaders; ready to step forward as talented individuals but to lead for the collective, for social good.
+• ~~**Co-Founder of an NGO – Social Envoy** :The goal of the Social Envoy is to enable cultural exposure and leadership spirit by means of creative and influential use of resources, to impact and develop bridges for humanity. We are working to ensure that we have a new generation of young, bold, ethical leaders; ready to step forward as talented individuals but to lead for the collective, for social good.~~
 
 • **Contributing to open source projects** (Open source refers to any program whose source code is made available for use or modification as users or other developers see fit. Open source software is usually developed as a public collaboration and made freely available.):
 
