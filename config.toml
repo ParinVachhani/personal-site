@@ -114,30 +114,6 @@ canonifyurls = true
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
   url = "/index.xml"
-[[menu.misc]]
-  weight = 2
-  identifier = "cookiepolicy"
-  name = "Cookie Policy"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
-  url = "/cookie-policy.html"
-[[menu.misc]]
-  weight = 3
-  identifier = "disclaimer"
-  name = "Disclaimer"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
-  url = "/disclaimer.html"
-[[menu.misc]]
-  weight = 4
-  identifier = "privacypolicy"
-  name = "Privacy Policy"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
-  url = "/privacy-policy.html"
-[[menu.misc]]
-  weight = 5 
-  identifier = "tandc"
-  name = "T&C"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
-  url = "/terms-and-conditions.html"
 
 [params]
   # Customize date format use to render blog post date, categories and other
