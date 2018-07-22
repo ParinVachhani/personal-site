@@ -18,7 +18,7 @@ defaultContentLanguage = "en-us"
 title = "Parin Vachhani"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "parinvachhani"
-googleAnalytics = ""
+googleAnalytics = "UA-61721834-3"
 paginate = 7
 canonifyurls = true
 
