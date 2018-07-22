@@ -1,20 +1,16 @@
 ---
-title: Hello World
-date: 2018-07-22T12:09:00.000Z
+title: Hello World!
+date: '2018-07-22T13:09:43+05:30'
 categories:
-  - Blog
-  - Random Discoveries
+  - blog
 tags:
-  - New Blog
-  - Hugo
-  - Netlify CMS
+  - hugo
+  - netlify
 keywords:
-  - New Blog
+  - Hugo
+  - Netlify
 autoThumbnailImage: false
-thumbnailImagePosition: top
-coverImage: /images/uploads/cover-post.jpg
+thumbnailImagePosition: left
+coverImage: ''
 ---
-I decided to gift myself a new blog and here is the result ;)
-<!--more-->
-
-This blog was created on Hugo and then I installed Netlify CMS on it.
+I decided to finally create my own personal site using Hugo static site generator and deployed it on Netlify CMS. Its a sweet setup!
