@@ -2,7 +2,7 @@
 title: Hello World!
 date: '2018-07-22T13:09:43+05:30'
 categories:
-  - blog
+  - Blog
 tags:
   - hugo
   - netlify
