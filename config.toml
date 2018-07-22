@@ -78,10 +78,10 @@ canonifyurls = true
   url = "/#about"
 [[menu.main]]
   weight = 6
-  identifier = "portfolio"
-  name = "Portfolio"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-address-card\"></i>"
-  url = "https://me.parin.ml/"
+  identifier = "projects"
+  name = "Projects"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-code\"></i>"
+  url = "https://parin.ml/tags/projects"
 
 [[menu.links]]
   weight = 1
