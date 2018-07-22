@@ -59,7 +59,7 @@
   translation: "no category found"
 
 - id: "global.categories_found.one"
-  translation: "1 cartegory found"
+  translation: "1 category found"
 
 - id: "global.categories_found.other"
   translation: "{n} categories found"
