@@ -230,4 +230,4 @@ canonifyurls = true
 
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
    [params.footer]
-     copyright = "<a href=\"https://github.com/parinvachhani\">Parin Vachhani</a>© 2018 <CUSTOMIZATION>. All Rights Reserved"
+     copyright = "<a href=\"https://github.com/parinvachhani\">Parin Vachhani</a>"
