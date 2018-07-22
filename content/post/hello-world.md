@@ -11,6 +11,6 @@ keywords:
   - Netlify
 autoThumbnailImage: false
 thumbnailImagePosition: left
-coverImage: /images/uploads/cover-post.jpg
+coverImage: ''
 ---
 I decided to finally create my own personal site using Hugo static site generator and deployed it on Netlify CMS. Its a sweet setup!
