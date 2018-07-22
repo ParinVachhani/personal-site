@@ -9,7 +9,7 @@ tags:
 keywords:
   - Hugo
   - Netlify
-autoThumbnailImage: true
+autoThumbnailImage: false
 thumbnailImagePosition: left
 coverImage: /images/uploads/cover-post.jpg
 ---
