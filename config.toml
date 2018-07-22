@@ -12,13 +12,13 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseURL = "https://www.ragasirtahk.tk/"
+baseURL = "https://parin.ml/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "The ragasirtahk Blog"
+title = "Parin Vachhani"
 theme = "hugo-tranquilpeak-theme"
-disqusShortname = "the-ragasirtahk-blog"
-googleAnalytics = "UA-96539727-5"
+disqusShortname = ""
+googleAnalytics = ""
 paginate = 7
 canonifyurls = true
 
@@ -31,17 +31,17 @@ canonifyurls = true
   archive = "archives"
 
 [author]
-  name = "Sagar Khatri"
-  bio = "Open Source Enthusiast | Blogger | Quizzer | Conversationalist"
-  job = "Student @ DPS Sonepat"
+  name = "Parin Vachhani"
+  bio = "Developer | Runner | Explorer"
+  job = "Student @ IIIT Hyderabad"
   location = "India"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "khatri.sagar.sk@gmail.com"
+  gravatarEmail = "vachhaniparin@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
   # picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
   # Your Twitter username without the @. E.g : thibaudlepretre
-  twitter = "ragasirtahk"
+  twitter = "parinvachhani"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
   # googlePlus = "+ThibaudLepretre"
 
@@ -81,32 +81,32 @@ canonifyurls = true
   identifier = "portfolio"
   name = "Portfolio"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-address-card\"></i>"
-  url = "https://me.ragasirtahk.tk/"
+  url = "https://me.parin.ml/"
 
 [[menu.links]]
   weight = 1
   identifier = "github"
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-  url = "https://github.com/ragasirtahk"
+  url = "https://github.com/parinvachhani"
 [[menu.links]]
   weight = 2
   identifier = "facebook"
   name = "Facebook"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-facebook\"></i>"
-  url = "https://facebook.com/ragasirtahk7"
+  url = "https://facebook.com/parin.vachhani"
 [[menu.links]]
   weight = 3
   identifier = "twitter"
   name = "Twitter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
-  url = "https://twitter.com/ragasirtahk"
+  url = "https://twitter.com/parinvachhani"
 [[menu.links]]
   weight = 4
   identifier = "linkedin"
   name = "LinkedIn"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\"></i>"
-  url = "https://www.linkedin.com/in/ragasirtahk/"
+  url = "https://www.linkedin.com/in/parinvachhani/"
 
 [[menu.misc]]
   weight = 1
@@ -123,7 +123,7 @@ canonifyurls = true
   # dateFormat = "2 January 2006"
 
   # Global keywords configuration. Following keywords will be add to every pages
-  keywords = ["Sagar Khatri", "ragasirtahk", "The ragasirtahk Blog", "The official blog of Sagar Khatri"]
+  keywords = ["Parin Vachhani", "parinvachhani", "Parin", "The official website of Parin Vachhani"]
 
   # Syntax highlighter, possible choice between: "highlight.js" (recommanded) and "prism.js" (experimental)
   # You can comment it to disable syntax highlighting
@@ -136,7 +136,7 @@ canonifyurls = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "The ragasirtahk Blog. The official blog of Sagar Khatri. Blogger, Quizzer, Conversationalist."
+  description = "Parin Vachhani's home on the internet"
 
   # Customization
   # Define the behavior of the sidebar
@@ -230,4 +230,4 @@ canonifyurls = true
 
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
    [params.footer]
-     copyright = "<a href=\"https://github.com/ragasirtahk\">Sagar Khatri</a>"
+     copyright = "<a href=\"https://github.com/parinvachhani\">Parin Vachhani</a>© 2018 <CUSTOMIZATION>. All Rights Reserved"

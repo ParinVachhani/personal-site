@@ -1,5 +1,5 @@
-# The ragasirtahk Blog
-My personal blog. I share things I do here. View it here: https://www.ragasirtahk.tk/
+# Parin Vachhani - My personal website
+My personal website. I share things I do here.
 
 ## Technologies Used
 - [Netlify CMS](https://www.netlifycms.org/)
@@ -14,7 +14,7 @@ My personal blog. I share things I do here. View it here: https://www.ragasirtah
 Please all the credit should be attributed to [original *Hexo* version](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak) and its author [Louis Barranqueiro](https://github.com/LouisBarranqueiro).
 
 ## Setup for Yourself
-I have created a guide explaining how someone can create a blog like mine using Hugo and Netlify CMS. You can view it [here](https://www.ragasirtahk.tk/2018/01/setting-up-netlify-cms-on-hugo/).
+You can create a website like mine using Hugo and Netlify CMS by following the guide [here](https://www.ragasirtahk.tk/2018/01/setting-up-netlify-cms-on-hugo/).
 
 ## Use as boilerplate
 Most of us love boilerplates!
@@ -33,7 +33,7 @@ Please also delete `manifest.json`, `OneSignalSDKWorker.js`, `OneSignalSDKUpdate
 >You can simply fork/clone/download this repository, upload to your server or deploy to **Netlify** and create your own blog. Remember to delete the contents of `/content/post` before uploading or deploying it.
 
 ## My love for Netlify
-And yes this blog deploys on Netlify (https://www.ragasirtahk.tk/). 
+And yes this blog deploys on Netlify (https://parin.ml/). 
 
 ![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg "Deploys by Netlify")
 
